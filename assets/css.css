@@ -27,7 +27,7 @@ body {
     background: rgb(231, 231, 231);
 }
 
-navbar ul {
+.navbar ul {
     background: rgb(29, 29, 29);
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -37,21 +37,21 @@ navbar ul {
     margin: 0;
 }
 
-navbar ul li {
+.navbar ul li {
     list-style-type: none;
     padding: 10px;
 }
 
-navbar ul li:hover {
+.navbar ul li:hover {
     background: black;
     transition: 0.2s;
 }
 
-navbar ul li:hover a {
+.navbar ul li:hover a {
     text-decoration: underline;
 }
 
-navbar ul li a {
+.navbar ul li a {
     color: white;
     text-decoration: none;
 }
@@ -132,7 +132,7 @@ navbar ul li a {
 }
 
 @media only screen and (max-width: 500px) {
-    navbar ul {
+    .navbar ul {
         flex-direction: column;
         align-items: center;
         gap: 0;
